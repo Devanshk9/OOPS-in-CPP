@@ -6,6 +6,7 @@
 
 using namespace std;
 
+// Defining a class never makes memory but objects do
 class Teacher{
 
 private:

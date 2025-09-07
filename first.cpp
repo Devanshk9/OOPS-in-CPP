@@ -14,10 +14,13 @@ public:
     string name;
     string department;
     string subject;
+
     //methods//member functions
+    //setter
     void setSalary(double s){
         this->salary = s;
     }
+    //getter is that returns
     void printSalary(){
         cout<<this->salary<<endl;
     }

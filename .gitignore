@@ -1,0 +1,45 @@
+# --- C/C++ build artifacts ---
+*.o
+*.obj
+*.lo
+*.la
+*.al
+*.dep
+*.d
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# Common executables (ignored by default)
+*.exe
+*.out
+a.out
+
+# --- CMake / Make ---
+/build/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# --- IDE / Editor ---
+.vscode/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# --- OS junk ---
+.DS_Store
+Thumbs.db
+
+# --- Allow your executable ---
+# Un-ignore the folder (if needed) and the exact binary name
+!bin/
+!bin/my_program
